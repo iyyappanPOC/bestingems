@@ -31,3 +31,42 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: "Thicccboi";
+    src: url(/fonts/Thicccboi/THICCCBOI-Medium.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Gantari";
+    src: url(/fonts/Gantari/Gantari-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Be-Vietnam";
+    src: url(/fonts/be-vietnam/BeVietnam-Regular.ttf) format("truetype");
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #252525;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #252525;
+}
